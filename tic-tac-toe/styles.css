@@ -1,6 +1,6 @@
 body {
   margin: 0%;
-  background: #eee;
+  background: #4f9dd1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,6 +8,8 @@ body {
 }
 header {
   margin-top: 25vh;
+  color: white;
+  font-family: 'Fredoka';
 }
 .board-row {
   display: flex;
@@ -16,22 +18,22 @@ header {
 
 .board-btn {
   border: none;
-  border-bottom: 0.5px solid black;
-  border-left: 0.5px solid black;
+  /* border-bottom: 0.5px solid black; */
+  /* border-left: 0.5px solid black; */
   width: 64px;
   height: 64px;
+  background-color: #e9dfa3;
   cursor: pointer;
 }
 
-
 .board-btn:hover {
-	background-color: gray;
+  background-color: #97B392;
 }
 
 .top-end {
-  border-top: 0.5px solid black;
+  /* border-top: 0.5px solid black; */
 }
 
 .right-end {
-  border-right: 0.5px solid black;
+  /* border-right: 0.5px solid black; */
 }
